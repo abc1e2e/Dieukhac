@@ -185,7 +185,7 @@
                     </div>
                     <div>
                         <textarea id="content" name="content" placeholder="Để lại lời nhắn cho chúng tôi"
-                            style="width: 100%; height: 200px;"></textarea>
+                            style="width: 100%; height: 200px; box-sizing: border-box;"></textarea>
                     </div>
                     <input type="submit" value="Gửi">
                 </form>

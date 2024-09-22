@@ -140,4 +140,7 @@ textarea::placeholder {
     line-height: 18px;
     word-wrap: break-word
     }
+    .form_contact{
+        margin: 10px;
+    }
 }

@@ -19,7 +19,7 @@
                     thiết kế và thi công 
                 </h2>
             </div>
-            <div>
+            <div class="form_contact">
                 <form action="">
                     <div>
                         <input id="name" name="name" type="text" placeholder="Họ và tên">

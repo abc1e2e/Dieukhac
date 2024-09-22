@@ -16,7 +16,7 @@
             <div class="flex_new_header">
                 <div class="flex_new_header_2"> 
                     <p> {{ $post->formatedDate }}</p>
-                    <p> Bình luận</p>
+                    <p>{{ count($comment) }} Bình luận</p>
                 </div>
                 <div class="flex_new_header_3">
                     <img src="../images/Facebook.png" alt="FaceBook">
@@ -68,8 +68,9 @@
         </div>
 
         <div class="container-detail">
-            <div>
-                <p>Bình Luận</p>
+            <div class="container-detail flex-comment-header">
+                <img src="../images/bubble-chat.png" alt="bubble-chat">
+                <p class="p-comment-headder">BÌNH LUẬN</p>
             </div>
             <div>
                 <form action="" id="form_comment">
@@ -100,7 +101,7 @@
             </div>
         </div>
         <div class="container-detail" id="commentList">
-            <p> bình luận</p>
+            <p>{{count($comment)}} bình luận</p>
             @if(!empty($comment))
                 @foreach ($comment as $k => $v)
                     <div class="comment">

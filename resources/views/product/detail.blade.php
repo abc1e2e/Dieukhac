@@ -41,7 +41,7 @@
                 <div class="product_grid_img">
                     @foreach ( $post_3 as $k => $v)
                     <div class="project_img">
-                        <a href ="{{ route('product.detail',['id' => $value->id ]) }}"><img src="{{ Storage::url($v->image_main) }}" alt="image_product_{{ $k }}"></a>
+                        <a href ="{{ route('product.detail',['id' => $v->id ]) }}"><img src="{{ Storage::url($v->image_main) }}" alt="image_product_{{ $k }}"></a>
                         <p>{{ $v->title }}</p>
                     </div>
                     @endforeach

@@ -36,12 +36,12 @@
             </div>
 
         @endforeach
-      
+            <h2>Sản phẩm liên quan</h2>
             <div class="container">
                 <div class="product_grid_img">
                     @foreach ( $post_3 as $k => $v)
                     <div class="project_img">
-                        <img src="{{ Storage::url($v->image_main) }}" alt="image_product_{{ $k }}">
+                        <a href ="{{ route('product.detail',['id' => $value->id ]) }}"><img src="{{ Storage::url($v->image_main) }}" alt="image_product_{{ $k }}"></a>
                         <p>{{ $v->title }}</p>
                     </div>
                     @endforeach

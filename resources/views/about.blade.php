@@ -63,12 +63,12 @@
                     <div>
                         <img style ="width: auto;" src="img_about/Icon_1.png" alt="Icon_1.png">
                     </div>
-                    <p>Tầm nhìn</p>
+                    <p class="p_about_1">Tầm nhìn</p>
                     </p class="p_introduce" >Công ty CP Thăng Long Steel đã và đang hợp tác với rất nhiều đối tác lớn cùng chiến lược lâu dài bền vững</p>
                     <div>
                         <img style ="width: auto;" src="img_about/Icon_2.png" alt="Icon_1.png">
                     </div>
-                    <p>Sứ mệnh</p>
+                    <p class="p_about_1">Sứ mệnh</p>
                     </p class="p_introduce">Chúng tôi luôn nỗ lực, không ngừng sáng tạo, đổi mới, cải tiến sản phẩm và dịch vụ nhằm tối đa hóa lợi ích cho khách hàng.
                     Đào tạo, nâng cao chất lượng nguồn nhân lực đáp ứng yêu cầu phát triển.
                     Đặt chất lượng công trình lên hàng đầu.

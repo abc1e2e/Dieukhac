@@ -153,6 +153,15 @@
 .grid-section img{
     width: 100%;
 }
+.p_about_1{
+   color: #38383D;
+    font-size: 18px;
+    font-family: Inter Display;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+}
 @media (max-width: 768px) {
 
     .about_bg_3_h2{

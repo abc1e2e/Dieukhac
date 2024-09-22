@@ -181,17 +181,18 @@ form .form_div{
 }
 .flex-comment-header{
     display: flex;
+
     align-items: center;
     gap: 15px;
 }
 .p-comment-headder{
     color: #EC9B3C;
-font-size: 16px;
-font-family: Inter Display;
-font-weight: 700;
-text-transform: uppercase;
-line-height: 24px;
-word-wrap: break-word
+    font-size: 16px;
+    font-family: Inter Display;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 24px;
+    word-wrap: break-word
 }
 @media (max-width: 768px) {
     .container-detail{
@@ -207,9 +208,11 @@ word-wrap: break-word
         padding: 0px;
     }
     .flex_new_header{
+
         display: block;
     }
     .flex_new_header_3{
+        
         margin-bottom: 20px;
     }
 }

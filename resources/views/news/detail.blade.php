@@ -8,7 +8,7 @@
 
 @section('content')
     <div class="container">
-        <p>Trang chủ => Tin Tức => Chi tiết tin tức</p>
+        <p class="p_new_1">Trang chủ <img src="../images/arrow-right-double-sharp.png" alt="arrow-right-double-sharp"> Tin Tức <img src="../images/arrow-right-double-sharp.png" alt="arrow-right-double-sharp"> Chi tiết tin tức</p>
     </div>
     <div class="container">
         <div class="container-detail">

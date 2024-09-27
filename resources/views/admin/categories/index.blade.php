@@ -23,7 +23,7 @@
                         <form action="{{ route('admin.categories.destroy', $category->id) }}" method="POST" style="display:inline-block;">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="btn btn-danger">Xoá</button>
+                            <button type="submit" class="btn btn-danger delete-button">Xoá</button>
                         </form>
                     </td>
                 </tr>

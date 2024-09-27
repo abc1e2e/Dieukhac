@@ -97,7 +97,7 @@ class PostController extends Controller
         //         $post->files()->create(['file_path' => $imagePath]);
         //     }
         // }
-        $post->update($request->all());
+        $post->save($request->all());
         return redirect()->route('admin.posts.index')->with('success', 'Post updated successfully.');
     }
 

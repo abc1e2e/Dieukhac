@@ -8,7 +8,7 @@
     <div class="container">
         <h1>Chỉnh Sửa Bài Viết</h1>
         
-        <form action="{{ route('admin.sliderbar.update', $sliderbar->id) }}" method="sliderbar" enctype="multipart/form-data">
+        <form action="{{ route('admin.sliderbar.update', $sliderbar->id) }}" method="POST" enctype="multipart/form-data">
             @csrf
             @method('PUT')
 
@@ -46,6 +46,13 @@
                 <label for="name" class="form-label">Sản Phẩm</label>
                 <input type="text" id="name" name="name" class="form-control" value="{{ old('name', $sliderbar->name) }}" required>
                 @error('name')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Khách Hàng</label>
+                <input type="text" id="customer" name="customer" class="form-control" value="{{ old('customer',  $sliderbar->customer) }}" required>
+                @error('customer')
                     <div class="text-danger">{{ $message }}</div>
                 @enderror
             </div>

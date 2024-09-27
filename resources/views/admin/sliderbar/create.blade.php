@@ -49,6 +49,13 @@
                 @enderror
             </div>
             <div class="mb-3">
+                <label for="name" class="form-label">Khách Hàng</label>
+                <input type="text" id="customer" name="customer" class="form-control" value="{{ old('customer') }}" required>
+                @error('customer')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
+            </div>
+            <div class="mb-3">
                 <label for="tag" class="form-label">Tag</label>
                 <input type="text" id="tag" name="tag" class="form-control" value="{{ old('tag') }}" required>
                 @error('tag')

@@ -79,9 +79,9 @@ class PostImgController extends Controller
                 Storage::delete($postImg->image);
             }
             $image = $request->file('image');
-            $postImg->image_main = $image->store('images', 'public');
+            $postImg->image = $image->store('images', 'public');
         }
-        $postImg->update($request->all());
+        $postImg->save($request->all());
         return redirect()->route('admin.postImgs.index')->with('success', 'postImg updated successfully.');
     }
 

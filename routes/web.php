@@ -70,7 +70,7 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('sliderbar', [SliderBarController::class, 'index'])->name('admin.sliderbar.index');
     Route::get('sliderbar/create', [SliderBarController::class, 'create'])->name('admin.sliderbar.create');
     Route::post('sliderbar', [SliderBarController::class, 'store'])->name('admin.sliderbar.store');
-    Route::get('sliderbar/{sliderbar}', [SliderBarController::class, 'show'])->name('admin.sliderbar.show');
+    // Route::get('sliderbar/{sliderbar}', [SliderBarController::class, 'show'])->name('admin.sliderbar.show');
     Route::get('sliderbar/{sliderbar}/edit', [SliderBarController::class, 'edit'])->name('admin.sliderbar.edit');
     Route::put('sliderbar/{sliderbar}', [SliderBarController::class, 'update'])->name('admin.sliderbar.update');
     Route::delete('sliderbar/{sliderbar}', [SliderBarController::class, 'destroy'])->name('admin.sliderbar.destroy');

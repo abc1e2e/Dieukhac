@@ -1,3 +1,126 @@
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-BlackItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-BoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-ExtraBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-ExtraBoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-ExtraBoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-ExtraLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-ExtraLightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-LightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-MediumItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-SemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-SemiBoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-Thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: ''Inter Display', sans-serif;';
+    src: url('/fonts/InterDisplay-ThinItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
 .container{
     width: 1140px;
     margin: 0 auto; /* Căn giữa nội dung */
@@ -5,7 +128,7 @@
 .p_footer{
     color: #38383D;
     font-size: 14px;
-    font-family: Inter Display;
+    font-family: 'Inter Display', sans-serif;
     font-weight: 500;
     line-height: 20px;
     text-decoration: none;
@@ -17,7 +140,7 @@
 .p_footer_2{
     color: #38383D;
     font-size: 18px;
-    font-family: Inter Display;
+    font-family: 'Inter Display', sans-serif;;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0.36px;
@@ -82,10 +205,18 @@
 }
 
 .link_header {
-    color: black;
+    color: #38383D;
     text-decoration: none;
     display: block;
     text-align: center;
+}
+.p_link_header{
+    /* color: #38383D; */
+    font-size: 16px;
+    font-family: 'Inter Display', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
 .link_header:hover {
@@ -106,7 +237,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 10px 32px;
     box-sizing: border-box;
     font-size: 14px;
     color: #fff;
@@ -198,7 +328,7 @@
 .ting-vit p{
     color: white;
     font-size: 14px;
-    font-family: Inter Display;
+    font-family: 'Inter Display', sans-serif;;
     font-weight: 400;
     line-height: 22px;
     word-wrap: break-word
@@ -208,6 +338,10 @@
 }
 .img_header_sp{
     display: none;
+}
+.horizontal-menu .active .link_header {
+    color: #2674BB;;
+
 }
 @media (max-width: 768px) {
     .sp_footer {
@@ -248,5 +382,8 @@
     }
     .lin-h {
         display: none;
+    }
+    .horizontal-menu li{
+        padding: 0px 0px;
     }
 }

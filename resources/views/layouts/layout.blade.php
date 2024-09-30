@@ -38,12 +38,12 @@
             </div>
                 <ul class="horizontal-menu"> 
                     <li class="img_header_sp_li" style="padding-right: 20px">  <img src="{{ asset('img_home/logo.png') }}" alt="logo"></li>
-                    <li><a class="link_header" href="/">Trang chủ</a></li>
-                    <li><a class="link_header" href="/about">Về chúng tôi</a></li>
-                    <li><a class="link_header" href="/project">Dự án</a></li>
-                    <li><a class="link_header" href="/product">Sản Phẩm & Dịch Vụ</a></li>
-                    <li><a class="link_header" href="/news">Tin tức</a></li>
-                    <li><a href="/contact" class="btn_contact">Liên hệ</a></li>
+                    <li class="header_p_menu"><a class="link_header" href="/"> <p class="p_link_header"> Trang chủ </p></a></li>
+                    <li class="header_p_menu"><a class="link_header" href="/about"> <p class="p_link_header">Về chúng tôi</p></a></li>
+                    <li class="header_p_menu"><a class="link_header" href="/project"><p class="p_link_header">Dự án</p></a></li>
+                    <li class="header_p_menu"><a class="link_header" href="/product"><p class="p_link_header">Sản Phẩm & Dịch Vụ</p></a></li>
+                    <li class="header_p_menu"><a class="link_header" href="/news"><p class="p_link_header">Tin tức</p></a></li>
+                    <li class="header_p_menu"><a href="/contact" class="btn_contact"><p>Liên hệ</p></a></li>
                 </ul>
 
         </nav>
@@ -112,5 +112,20 @@
         $('.menu-toggle').click(function() {
             $('.horizontal-menu').toggleClass('show');
         });
+        
     });
+    $(document).ready(function() {
+        var currentPath = window.location.pathname;
+            $('.horizontal-menu .header_p_menu .link_header').each(function() {
+                if ($(this).attr('href') === currentPath) {
+                    $(this).parent().addClass('active');
+                }
+            });
+
+            // Handle click events
+            $('.horizontal-menu .header_p_menu').on('click', function() {
+                $('.horizontal-menu .header_p_menu').removeClass('active');
+                $(this).addClass('active');
+            });
+        });
 </script>

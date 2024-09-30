@@ -11,7 +11,7 @@ use Illuminate\Http\Request;
 class NewController extends Controller
 {
     public function index(){
-        $posts = Post::orderBy('id', 'DESC')->paginate(9);
+        $posts = Post::where('category_id', 4)->orderBy('id', 'DESC')->paginate(9);
         // dd($posts);
         return view('news.index',compact('posts'));
     }
@@ -23,7 +23,7 @@ class NewController extends Controller
         $post->formatedDate = $formatedDate;
         $postImg = PostImg::where('post_id', $id)->get();
         $comment = Comment::where('post_id', $id)->get();
-        $post_8 = Post::orderBy('id','DESC')->limit(8)->get(); 
+        $post_8 = Post::where('category_id', 4)->orderBy('id','DESC')->limit(8)->get(); 
 
         return view('news.detail', compact(['post','postImg','post_8', 'comment']));
     }

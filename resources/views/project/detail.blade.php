@@ -8,7 +8,7 @@
 
 @section('content')
     <div class="container">
-        <p>Trang chủ => Danh sách dự án => Chi tiết dự án</p>
+        <p class="p_new_1">Trang chủ <img src="../images/arrow-right-double-sharp.png" alt="arrow-right-double-sharp"> Tin Tức <img src="../images/arrow-right-double-sharp.png" alt="arrow-right-double-sharp"> Chi tiết tin tức</p>
     </div>
    <div class="container">
         <div class="flex-detail">
@@ -17,12 +17,12 @@
             </div>
             <div class="slider_bar">
                 {{-- {{ dd($postSlider->title) }} --}}
-                <h2>{{ !empty($postSlider->title) ? $postSlider->title : "" }}</h2>
-                <p>{{ !empty($postSlider->content) ? $postSlider->content : "" }}</p>
-                <p class="flex-detail-sliderbar"> <img src="/images/Profile.png" alt="Profile"> Khách hàng: {{ !empty($postSlider->customer) ? $postSlider->name : ""}} </p>
-                <p class="flex-detail-sliderbar"> <img src="/images/Location.png" alt="Location"> Địa chỉ: {{ !empty($postSlider->address) ? $postSlider->name : "" }} </p>
-                <p class="flex-detail-sliderbar"> <img src="/images/Calendar.png" alt="Calendar"> Thời gian: {{ !empty($postSlider->time) ? $postSlider->name : ""}} </p>
-                <p class="flex-detail-sliderbar"> <img src="/images/Category.png" alt="Profile"> Sản phẩm: {{ !empty($postSlider->name) ? $postSlider->name : ""  }} </p>
+                <h2 class="h2_project_detail">{{ !empty($postSlider->title) ? $postSlider->title : "" }}</h2>
+                <p class="content-detail">{{ !empty($postSlider->content) ? $postSlider->content : "" }}</p>
+                <p class="content-detail flex-detail-sliderbar"> <img src="/images/Profile.png" alt="Profile"> Khách hàng: {{ !empty($postSlider->customer) ? $postSlider->name : ""}} </p>
+                <p class="content-detail flex-detail-sliderbar"> <img src="/images/Location.png" alt="Location"> Địa chỉ: {{ !empty($postSlider->address) ? $postSlider->name : "" }} </p>
+                <p class="content-detail flex-detail-sliderbar"> <img src="/images/Calendar.png" alt="Calendar"> Thời gian: {{ !empty($postSlider->time) ? $postSlider->name : ""}} </p>
+                <p class="content-detail flex-detail-sliderbar"> <img src="/images/Category.png" alt="Profile"> Sản phẩm: {{ !empty($postSlider->name) ? $postSlider->name : ""  }} </p>
             </div>
         </div>
         <div class="container-detail">

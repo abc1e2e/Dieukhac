@@ -53,7 +53,7 @@
                             <div class="slider_bar_link">
                                 <a href="{{ route('news.detail', ['id' => $v->id]) }}"><img
                                         src="{{ Storage::url($v->image_main) }}"
-                                        alt="image_product_{{ $k }}"></a>
+                                        alt="image_product_{{ $k }}" style="width: 120px;"></a>
                             </div>
                             <div>
                                 <p>{{ $v->title }}</p>

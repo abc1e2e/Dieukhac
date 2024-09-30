@@ -15,7 +15,7 @@
 .new_h2{
     color: white;
     font-size: 48px;
-    font-family: Inter Display;
+    font-family: 'Inter Display', sans-serif;
     font-weight: 800;
     text-transform: uppercase;
     line-height: 56px;
@@ -32,18 +32,19 @@
 }
 .project_img img{
     width: 100%;
+    height: 360px;
 }
 .project_img p{
     color: white;
     font-size: 16px;
-    font-family: Inter Display;
+    font-family: 'Inter Display', sans-serif;
     font-weight: 500;
     line-height: 18px;
     word-wrap: break-word;
     position: absolute;
     bottom: 0px;
     /* right: 70%; */
-    left: 10%;
+    left: 20%;
 }
 .flex-detail{
     display: flex;
@@ -61,7 +62,7 @@
 .content-detail{
     color: #64646D;
     font-size: 14px;
-    font-family: Inter Display;
+    font-family: 'Inter Display', sans-serif;
     font-weight: 400;
     line-height: 20px;
     word-wrap: break-word;
@@ -77,7 +78,7 @@
 .new_h2_title{
     color: #EC9B3C;
 font-size: 24px;
-font-family: Inter Display;
+font-family: 'Inter Display', sans-serif;
 font-weight: 700;
 line-height: 32px;
 word-wrap: break-word
@@ -96,6 +97,7 @@ word-wrap: break-word
 
 .new_flex_img .new_img{
     display: flex;
+    gap: 10px;
 }
 
 form{
@@ -154,13 +156,13 @@ form .form_div{
     align-self: stretch; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex
 }
 .text_comment_2{
-   flex: 1 1 0; color: #27272A; font-size: 18px; font-family: Inter Display; font-weight: 500; line-height: 24px; letter-spacing: 0.36px; word-wrap: break-word
+   flex: 1 1 0; color: #27272A; font-size: 18px; font-family: 'Inter Display', sans-serif; font-weight: 500; line-height: 24px; letter-spacing: 0.36px; word-wrap: break-word
 }
 .text_comment_3{
-    text-align: right; color: #808089; font-size: 14px; font-family: Inter Display; font-weight: 500; line-height: 22px; letter-spacing: 0.28px; word-wrap: break-word
+    text-align: right; color: #808089; font-size: 14px; font-family: 'Inter Display', sans-serif; font-weight: 500; line-height: 22px; letter-spacing: 0.28px; word-wrap: break-word
 }
 .text_comment_4{
-    align-self: stretch; color: #64646D; font-size: 14px; font-family: Inter Display; font-weight: 400; line-height: 20px; word-wrap: break-word
+    align-self: stretch; color: #64646D; font-size: 14px; font-family: 'Inter Display', sans-serif; font-weight: 400; line-height: 20px; word-wrap: break-word
 }
 .flex_new_header{
     display: flex;
@@ -188,7 +190,7 @@ form .form_div{
 .p-comment-headder{
     color: #EC9B3C;
     font-size: 16px;
-    font-family: Inter Display;
+    font-family: 'Inter Display', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 24px;
@@ -200,7 +202,7 @@ form .form_div{
     align-items: center;
     color: #38383D;
     font-size: 16px;
-    font-family: Inter Display;
+    font-family: 'Inter Display', sans-serif;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -226,5 +228,8 @@ form .form_div{
     .flex_new_header_3{
         
         margin-bottom: 20px;
+    }
+    .new_grid_img{
+        display: block;
     }
 }

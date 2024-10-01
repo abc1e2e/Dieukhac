@@ -27,6 +27,7 @@ class SliderBarController extends Controller
         $validatedData = $request->validate([
             'title' => 'required|string|max:255',
             'content' => 'required',
+            'post_id' => 'required|unique:post_slider_bar,post_id',
             // Thêm các quy tắc khác nếu cần
         ]);
         

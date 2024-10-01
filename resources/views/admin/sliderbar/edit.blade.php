@@ -16,7 +16,7 @@
                 <label for="category" class="form-label">Bài Viết</label>
                 <select id="post_id" name="post_id" class="form-control" required>
                     @foreach($posts as $post)
-                        <option value="{{ $post->id }}" {{ old('post_id') == $post->id ? 'selected' : '' }}>
+                        <option value="{{ $post->id }}" {{ old('post_id', $sliderbar->post_id) == $post->id ? 'selected' : '' }}>
                             {{ $post->title }}
                         </option>
                     @endforeach

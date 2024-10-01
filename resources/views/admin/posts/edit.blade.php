@@ -13,12 +13,13 @@
             @method('PUT')
 
             <div class="mb-3">
-                <label for="category" class="form-label">Danh mục</label>
-                <select id="category" name="category_id" class="form-control" required>
+                <label for="category_id" class="form-label">Danh mục</label>
+                <select id="category_id" name="category_id" class="form-control" required>
                     @foreach($categories as $category)
-                        <option value="{{ $category->id }}" {{ old('category_id') == $category->id ? 'selected' : '' }}>
-                            {{ $category->name }}
-                        </option>
+                        <option value="{{ $category->id }}" 
+                            {{ (old('category_id', $post->category_id) == $category->id) ? 'selected' : '' }}>
+                        {{ $category->name }}
+                    </option>
                     @endforeach
                 </select>
                 @error('category_id')

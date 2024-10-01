@@ -27,6 +27,7 @@ h1 {
 
 .text-danger {
     margin-top: 5px;
+    color: red;
 }
 
 textarea{

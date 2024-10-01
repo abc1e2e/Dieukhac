@@ -36,8 +36,8 @@ class SliderBarController extends Controller
     }
 
     public function edit(SliderBar $sliderbar)
-    {
-        return view('admin.sliderbar.edit', compact('sliderbar'));
+    {   $posts = Post::all();
+        return view('admin.sliderbar.edit', compact('sliderbar', 'posts'));
     }
 
     public function update(Request $request, SliderBar $sliderbar)

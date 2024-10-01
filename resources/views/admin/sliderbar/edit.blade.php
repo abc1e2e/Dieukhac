@@ -12,19 +12,19 @@
             @csrf
             @method('PUT')
 
-            {{-- <div class="mb-3">
-                <label for="category" class="form-label">Danh mục</label>
-                <select id="category" name="category_id" class="form-control" required>
-                    @foreach($categories as $category)
-                        <option value="{{ $category->id }}" {{ old('category_id') == $category->id ? 'selected' : '' }}>
-                            {{ $category->name }}
+            <div class="mb-3">
+                <label for="category" class="form-label">Bài Viết</label>
+                <select id="post_id" name="post_id" class="form-control" required>
+                    @foreach($posts as $post)
+                        <option value="{{ $post->id }}" {{ old('post_id') == $post->id ? 'selected' : '' }}>
+                            {{ $post->title }}
                         </option>
                     @endforeach
                 </select>
-                @error('category_id')
+                @error('post_id')
                     <div class="text-danger">{{ $message }}</div>
                 @enderror
-            </div> --}}
+            </div>
 
             <div class="mb-3">
                 <label for="title" class="form-label">Tiêu Đề</label>

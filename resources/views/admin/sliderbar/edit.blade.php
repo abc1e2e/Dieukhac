@@ -6,7 +6,7 @@
 
 @section('content')
     <div class="container">
-        <h1>Chỉnh Sửa Bài Viết</h1>
+        <h1>Chỉnh Sửa Side Bar Bài Viết</h1>
         
         <form action="{{ route('admin.sliderbar.update', $sliderbar->id) }}" method="POST" enctype="multipart/form-data">
             @csrf

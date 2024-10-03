@@ -33,11 +33,11 @@
         </div>
         <nav class="container">
             <div class="flex-header-sp">
-                <img src="{{ asset('img_home/logo.png') }}" alt="logo" class="img_header_sp">
+                <img style="width: 86.61px; height: 60px" src="{{ asset('img_home/logo.png') }}" alt="logo" class="img_header_sp">
                 <button class="menu-toggle">☰</button>
             </div>
                 <ul class="horizontal-menu"> 
-                    <li class="img_header_sp_li" style="padding-right: 20px">  <img src="{{ asset('img_home/logo.png') }}" alt="logo"></li>
+                    <li class="img_header_sp_li" style="padding-right: 20px">   <img style="width: 86.61px; height: 60px" src="{{ asset('img_home/logo.png') }}" alt="logo"></li>
                     <li class="header_p_menu"><a class="link_header" href="/"> <p class="p_link_header"> Trang chủ </p></a></li>
                     <li class="header_p_menu"><a class="link_header" href="/about"> <p class="p_link_header">Về chúng tôi</p></a></li>
                     <li class="header_p_menu"><a class="link_header" href="/project"><p class="p_link_header">Dự án</p></a></li>
@@ -58,7 +58,7 @@
     <footer>
         <div class="grid-footer container">
             <div class="sp_footer"> 
-               <img src="{{ asset('img_home/logo.png') }}" alt="logo">
+               <img style="width: 86.61px; height: 60px" src="{{ asset('img_home/logo.png') }}" alt="logo">
                 <p class="p_footer"> <span>THĂNG LONG STEEL</span> là một công ty chuyên nghiệp và đáng tin cậy trong lĩnh vực thiết kế và thi công cảnh quan. Với niềm đam mê và tâm huyết với nghệ thuật cảnh quan, chúng tôi đã mang đến cho hàng nghìn khách hàng những không gian mơ ước, nổi bật và góp phần làm đẹp cho cộng đồng và cuộc sống của họ.</p>
 
                 <div class="flex_item">

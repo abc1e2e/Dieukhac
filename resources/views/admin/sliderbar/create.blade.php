@@ -6,7 +6,7 @@
 
 @section('content')
     <div class="container">
-        <h1>Tạo Bài Viết Mới</h1>
+        <h1>Tạo Side Bar Bài Viết Mới</h1>
         
         <form action="{{ route('admin.sliderbar.store') }}" method="POST" enctype="multipart/form-data">
             @csrf

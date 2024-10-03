@@ -2,8 +2,8 @@
 
 @section('content')
 <div class="container">
-    <h1>Danh Sách SliderBar</h1>
-    <a href="{{ route('admin.sliderbar.create') }}" class="btn btn-primary">Tạo SliderBar Mới</a>
+    <h1>Danh Sách Sidebar</h1>
+    <a href="{{ route('admin.sliderbar.create') }}" class="btn btn-primary">Tạo Sidebar Mới</a>
 
     @if(session('success'))
         <div class="alert alert-success mt-3">

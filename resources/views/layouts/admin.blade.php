@@ -20,15 +20,15 @@
             <h2>Admin Menu</h2>
             <ul class="sidebar-menu">
                 <li>
-                    <a href="#" class="toggle-submenu">Manage Posts</a>
+                    <a href="#" class="toggle-submenu">Quản lý bài viết</a>
                     <ul class="submenu">
-                        <li><a href="{{ route('admin.posts.index') }}">All Posts</a></li>
-                        <li><a href="{{ route('admin.postImgs.index') }}">Post Images</a></li>
-                        <li><a href="{{ route('admin.sliderbar.index') }}">Post Sliderbar</a></li>
+                        <li><a href="{{ route('admin.posts.index') }}">Tất cả bài viết</a></li>
+                        <li><a href="{{ route('admin.postImgs.index') }}">Thêm ảnh và nội dung cho bài viết</a></li>
+                        <li><a href="{{ route('admin.sliderbar.index') }}">Tạo thanh bên của bài viết (Side Bar)</a></li>
                     </ul>
                 </li>
-                <li><a href="{{ route('admin.categories.index') }}">Manage Categories</a></li>
-                <li><a href="{{ route('admin.comments.index') }}">Manage Comments</a></li>
+                <li><a href="{{ route('admin.categories.index') }}">Quản lý danh sách</a></li>
+                <li><a href="{{ route('admin.comments.index') }}">Quản lý các bình luận</a></li>
             </ul>
         </div>
         

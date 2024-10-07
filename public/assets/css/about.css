@@ -2,7 +2,7 @@
     position: relative; /* Đặt vị trí tương đối cho container */
     background-image: url("../img_about/about_us_img_bg_1.png"); /* Đặt hình ảnh nền */
     background-position: center;
-    height: 642px;
+    height: 650px;
     width: 100%;
 
 }

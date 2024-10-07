@@ -11,19 +11,22 @@
         <div class="container ">
             <h2 class="about-h2 mt-5">Về chúng tôi</h2>
             <div class="about_content">
-                <p class="p_bg_1">Công ty CP Thăng Long Steel là một trong những công ty chuyên về cung cấp sản phẩm kết cấu thép tại Việt Nam.</p>
-                <p class="p_bg_1">Với đội ngũ Kỹ sư thiết kế, quản lý chất chất lượng, đội ngũ công nhân lành nghề nhiều kinh nghiệm và sử dụng c·c phần mềm </p>
-                <p class="p_bg_1">thiết kế, tính toán chuyên nghiệp luôn cung cấp cho khách hàng những giải pháp tốt nhất và nhanh nhất về ngành kết cấu thép.</p>
+                <p class="p_bg_1">Công ty CP điêu khắc ứng dụng Việt nam: Tinh tế là cách chúng tôi tạo nên giá trị
+                    Chào mừng đến với Công ty CP điêu khắc ứng dụng Việt nam, một không gian nơi sự tinh tế gặp gỡ sự tận tâm để tạo ra giá trị cao của không gian ARTWORK cho cộng đồng và xã hội. Là người sáng lập và người có tầm nhìn xa trông rộng đứng sau công ty, tôi mang đến sự kết hợp đa dạng giữa thiết kế, kỹ thuật, nghệ thuật, quản lý sản phẩm và tinh thần kinh doanh để tạo ra những trải nghiệm gia trị cao trong bối cảnh phù hợp nhất của bạn vượt qua các chuẩn mực thông thường.</p>
+                {{-- <p class="p_bg_1">Với đội ngũ Kỹ sư thiết kế, quản lý chất chất lượng, đội ngũ công nhân lành nghề nhiều kinh nghiệm và sử dụng c·c phần mềm </p>
+                <p class="p_bg_1">thiết kế, tính toán chuyên nghiệp luôn cung cấp cho khách hàng những giải pháp tốt nhất và nhanh nhất về ngành kết cấu thép.</p> --}}
             </div>
             <div class="about_content">
-                <p class="p_bg_1">Nhà máy sản xuất của Công ty CP Thăng Long Steel tọa lạc tại Thạch Thất, Thành phố Hà Nội. Nhà máy có diện tích nhà xưởng</p>
-                <p class="p_bg_1">5.000m2/3.000 m2 diện tích mặt bằng, Nhà máy sản xuất được trang bị đầy đủ máy móc, thiết bị, dây chuyền sản xuất hiện đại</p>
-                <p class="p_bg_1">như: Máy chặt sắt, Máy ghá dầm, Máy hàn tự động, Máy nắn dầm, phun bi làm sạch, Phun sơn ...</p>
+                <p class="p_bg_1">Cách tiếp cận của chúng tôi tại Công ty cổ phần điêu khắc ứng dụng Việt Nam là sự kết hợp độc đáo giữa những hiểu biết sâu sắc trong quá khứ và công nghệ tiên tiến, trong đó mỗi dự án và sản phẩm là một hành trình tiến bộ. Bằng cách khai thác cả kỹ thuật truyền thống và hiện đại, chúng tôi nỗ lực định hình tương lai của các không gian ARTWORK tạo ra những không gian truyền cảm hứng, thu hút và phát triển theo thời đại.</p>
+                {{-- <p class="p_bg_1">5.000m2/3.000 m2 diện tích mặt bằng, Nhà máy sản xuất được trang bị đầy đủ máy móc, thiết bị, dây chuyền sản xuất hiện đại</p>
+                <p class="p_bg_1">như: Máy chặt sắt, Máy ghá dầm, Máy hàn tự động, Máy nắn dầm, phun bi làm sạch, Phun sơn ...</p> --}}
             </div>
             <div class="about_content">
-                <p class="p_bg_1">Với mục tiêu luôn luôn đổi mới công nghệ, đào tạo đội ngũ kỹ thuật, công nhân lành nghề và nghiên cứu phát triển những sản </p>
-                <p class="p_bg_1">phẩm mới áp dụng trong công nghiệp và dân dụng để trở thành đơn vị sản xuất kết cấu thép cÛ uy tín trong nước với chất lượng </p>
-                <p class="p_bg_1">cao nhất và dịch vụ tốt nhất. Chúng tôi cam kết luôn xây dựng và phát triển công ty gắn chặt với mục tiêu chất lượng và sự hài </p>
+                <p class="p_bg_1">Hợp tác với chúng tôi có nghĩa là bước vào một thế giới nơi các yếu tố thiết kế vượt thời gian hòa quyện liền mạch với khả năng của các công nghệ mới. Chúng tôi tin vào việc tạo ra những kiệt tác hữu hình, minh chứng cho bối cảnh hiện tại để phát triển bối cảnh bền vững cho tương lai. Không chỉ là chứng kiến thiết kế; mà là trải nghiệm sự kết hợp hài hòa giữa truyền thống và đổi mới trong mọi sáng tạo.
+                    Cam kết của chúng tôi đối với sự tiến bộ vượt xa một năm cụ thể hoặc một tính năng công nghệ đơn lẻ. Chúng tôi liên tục khám phá và tích hợp những tiến bộ giúp nâng cao tính thẩm mỹ, chức năng và trải nghiệm tổng thể của các sản phẩm và không gian ARTWORK cũng như không gian trải nghiệm khác. Kết quả là một danh mục các sản phẩm, dự án, không gian trải nghiệm phản ánh sự tận tâm trong việc vượt qua ranh giới và phát triển khái niệm "không gian lý tưởng" cho hiện tại và thế hệ tương lai.
+                    Bước vào những không gian, công trình ARTWORK ngày nay phát triển thành di sản của tương lai. Công ty Điêu Khắc Ứng Dụng Việt Nam mời bạn tham gia vào hành trình của chúng tôi, nơi các sản phẩm và không gian ARTWORK không có giới hạn và mỗi dự án trở thành bức tranh của trí tưởng tượng và sự tiến bộ. </p>
+                {{-- <p class="p_bg_1">phẩm mới áp dụng trong công nghiệp và dân dụng để trở thành đơn vị sản xuất kết cấu thép cÛ uy tín trong nước với chất lượng </p>
+                <p class="p_bg_1">cao nhất và dịch vụ tốt nhất. Chúng tôi cam kết luôn xây dựng và phát triển công ty gắn chặt với mục tiêu chất lượng và sự hài </p> --}}
             </div>
             <div class="about_button">
                 <button>Hồ sơ công ty</button>

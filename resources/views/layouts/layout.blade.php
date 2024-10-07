@@ -59,11 +59,11 @@
         <div class="grid-footer container">
             <div class="sp_footer"> 
                <img style="width: 86.61px; height: 60px" src="{{ asset('img_home/logo.png') }}" alt="logo">
-                <p class="p_footer"> <span>THĂNG LONG STEEL</span> là một công ty chuyên nghiệp và đáng tin cậy trong lĩnh vực thiết kế và thi công cảnh quan. Với niềm đam mê và tâm huyết với nghệ thuật cảnh quan, chúng tôi đã mang đến cho hàng nghìn khách hàng những không gian mơ ước, nổi bật và góp phần làm đẹp cho cộng đồng và cuộc sống của họ.</p>
+                <p class="p_footer"> <span>CÔNG TY CỔ PHẦN ỨNG DỤNG ĐIÊU KHẮC VIỆT NAM</span> là một công ty chuyên nghiệp và đáng tin cậy trong lĩnh vực thiết kế và thi công cảnh quan. Với niềm đam mê và tâm huyết với nghệ thuật cảnh quan, chúng tôi đã mang đến cho hàng nghìn khách hàng những không gian mơ ước, nổi bật và góp phần làm đẹp cho cộng đồng và cuộc sống của họ.</p>
 
                 <div class="flex_item">
                     <img src="{{ asset('img_home/Call.png') }}" alt="call.png">
-                    <p class="p_footer">0972.888.888</p>
+                    <p class="p_footer">0110827875</p>
                 </div>
                 <div class="flex_item">
                     <img src="{{ asset('img_home/Message.png') }}" alt="call.png">
@@ -71,7 +71,7 @@
                 </div>
                 <div class="flex_item">
                     <img src="{{ asset('img_home/Location.png') }}" alt="call.png">
-                    <p class="p_footer">Tầng 11, Tòa nhà Lạc Hồng, Số 85 đường Lê Văn Lương, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội</p>
+                    <p class="p_footer">Tầng 11, Tòa nhà NetLand, ngõ 27 Lê Văn Lương, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội</p>
                 </div>
                 <div>
                     <img src="../iconsocialmedia/ic_facebook.png" alt="ic_facebook">

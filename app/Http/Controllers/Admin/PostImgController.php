@@ -17,7 +17,7 @@ class PostImgController extends Controller
     }
 
     public function create()
-    {  $posts = Post::all();
+    {  $posts = Post::with('category')->get();
         return view('admin.post_img.create',compact('posts'));
     }
 
@@ -61,7 +61,7 @@ class PostImgController extends Controller
     }
 
     public function edit(PostImg $postImg)
-    {   $posts = Post::all();
+    {   $posts = Post::with('category')->get();
         return view('admin.post_img.edit', compact('postImg', 'posts'));
     }
 

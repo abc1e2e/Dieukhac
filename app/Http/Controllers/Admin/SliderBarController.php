@@ -17,7 +17,7 @@ class SliderBarController extends Controller
     }
 
     public function create()
-    {   $posts = Post::all();
+    {   $posts = Post::with('category')->get();
         return view('admin.sliderbar.create', compact('posts'));
     }
 
@@ -37,7 +37,7 @@ class SliderBarController extends Controller
     }
 
     public function edit(SliderBar $sliderbar)
-    {   $posts = Post::all();
+    {    $posts = Post::with('category')->get();
         return view('admin.sliderbar.edit', compact('sliderbar', 'posts'));
     }
 

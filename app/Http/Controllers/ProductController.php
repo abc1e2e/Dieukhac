@@ -11,6 +11,14 @@ class ProductController extends Controller
 {
     public function index(){
         $posts = Post::where('category_id', 3)->orderBy('id','DESC')->paginate(9);
+        return view('product.index',compact('posts'));
+    }
+    public function index2(){
+        $posts = Post::where('category_id', 5)->orderBy('id','DESC')->paginate(9);
+        return view('product.index',compact('posts'));
+    }
+    public function index3(){
+        $posts = Post::where('category_id', 6)->orderBy('id','DESC')->paginate(9);
         // dd($posts);
         return view('product.index',compact('posts'));
     }

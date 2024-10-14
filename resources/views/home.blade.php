@@ -13,7 +13,7 @@
         <div class="grid-section mb-20">
             <div>
                 <p class="p_chungtoi">Về chúng tôi</p>
-                <p class="p_congty">CÔNG TY CP THĂNG LONG STEEL
+                <p class="p_congty">Công ty Cổ phần Ứng dụng Điêu khắc Việt Nam
                     CHuyên Thiết kế Cảnh quan & Mô Hình
                     Hàng đầu việt Nam</p>
                 <img src="img_home/08.png" alt="8+">
@@ -21,7 +21,7 @@
                     kinh nghiệm</p>
             </div>
             <div>
-                <p class="p_introduce">CÔNG TY CP THĂNG LONG STEEL được thành lập với vai trò tiên phong trong lĩnh vực tạo
+                <p class="p_introduce">Công ty Cổ phần Ứng dụng Điêu khắc Việt Nam được thành lập với vai trò tiên phong trong lĩnh vực tạo
                     hình, thiết kế, thi công cảnh quan, mô hình các dự án nghỉ dưỡng, khu vui chơi, khu du lịch... trong và
                     ngoài nước. Hiện nay, không chỉ đáp ứng thị trường trong nước chúng tôi đang từng bước chinh phục các
                     thị trường khó tính trên thế giới. THĂNG LONG STEEL hiện đang là đơn vị dẫn đầu bằng trang thiết bị máy
@@ -65,7 +65,7 @@
                 <div>
                     <p class="p_chungtoi">Quy mô sản xuất</p>
                     <p class="p_congty">Quy mô sản xuất lên đến 3300 m2</p>
-                    <p class="p_introduce">CÔNG TY CP THĂNG LONG STEEL toạ lạc tại 56/77/51 đường số 8 khu phố Phước Hậu,
+                    <p class="p_introduce">Công ty Cổ phần Ứng dụng Điêu khắc Việt Nam toạ lạc tại 56/77/51 đường số 8 khu phố Phước Hậu,
                         Phường Long Phước, Tp Thủ Đức, Tp Hồ Chí Minh. Diện tích nhà xưởng lên đến 3300m2. Xưởng sản xuất
                         được chia thành 4 khu chính:</p>
                     <ul>
@@ -88,7 +88,7 @@
                     <p class="p_chungtoi">NGUỒN LỰC NHÂN SỰ</p>
                     <p class="p_congty">Đội ngũ chuyên nghiệp & Tâm huyết</p>
                     <p class="p_introduce">NGUỒN LỰC NHÂN SỰ</p>
-                    <p class="p_introduce">CÔNG TY CP THĂNG LONG STEEL luôn chú trọng đến nguồn lực nhân sự, nguồn nhân lực
+                    <p class="p_introduce">Công ty Cổ phần Ứng dụng Điêu khắc Việt Nam luôn chú trọng đến nguồn lực nhân sự, nguồn nhân lực
                         được xem là “tài sản quý giá"" của công ty.</p>
                     <ul>
                         <li class="p_introduce">Trình độ: Đội ngũ nhân sự luôn được ưu tiên tuyển chọn, đào tạo bài bản và
@@ -118,7 +118,7 @@
                 <div>
                     <p class="p_introduce">Quá trình sản xuất được thực hiện bởi các nghệ nhân và úng dụng công
                         nghệ
-                        hàng đầu tại CÔNG TY CP THĂNG LONG STEEL</p>
+                        hàng đầu tại Công ty Cổ phần Ứng dụng Điêu khắc Việt Nam</p>
                 </div>
             </div>
 

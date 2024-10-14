@@ -10,6 +10,7 @@
     {{-- @vite('resources/css/style.css') --}}
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -41,7 +42,18 @@
                     <li class="header_p_menu"><a class="link_header" href="/"> <p class="p_link_header"> Trang chủ </p></a></li>
                     <li class="header_p_menu"><a class="link_header" href="/about"> <p class="p_link_header">Về chúng tôi</p></a></li>
                     <li class="header_p_menu"><a class="link_header" href="/project"><p class="p_link_header">Dự án</p></a></li>
-                    <li class="header_p_menu"><a class="link_header" href="/product"><p class="p_link_header">Sản Phẩm & Dịch Vụ</p></a></li>
+                    @php
+                        $categorys = App\Models\Category::where('name','like','%San%')->get();
+                    @endphp
+
+                    <li>
+                        <p class="p_link_header" style="color:#38383D;">Sản Phẩm & Dịch Vụ</p>
+                        <ul class="dropdown-menu">
+                            @foreach ($categorys as $key => $value)                              
+                            <li class="dropdown-item">  <a class="link_header" href="/product{{$key+1}}"> {{$value->name}} </a></li>
+                            @endforeach
+                        </ul>
+                    </li>
                     <li class="header_p_menu"><a class="link_header" href="/news"><p class="p_link_header">Tin tức</p></a></li>
                     <li class="header_p_menu"><a href="/contact" class="btn_contact"><p>Liên hệ</p></a></li>
                 </ul>
@@ -102,7 +114,7 @@
             </div>  
             
         </div>
-        <p style="text-align: center">&copy; Copyright {{ date('Y') }}, CÔNG TY CP THĂNG LONG STEEL. Đã đăng ký bản quyền </p>
+        <p style="text-align: center">&copy; Copyright {{ date('Y') }}, Công ty Cổ phần Ứng dụng Điêu khắc Việt Nam. Đã đăng ký bản quyền </p>
     </footer>
 </body>
 </html>

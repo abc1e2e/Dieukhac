@@ -67,12 +67,12 @@
 
             <a href="tel:0965536866" target="blank">
                 <p class="btn btn-danger btn-hotline shadow" style="font-size: 22px; padding: 0px 14px; display:block;">
-                   <img style="width: 57px; height: 57px;" src="images/phone-icon-800x800.png" alt="zalo">
+                   <img style="width: 57px; height: 57px;" src="/images/phone-icon-800x800.png" alt="zalo">
                 </p>
             </a>
                 <a href="https://chat.zalo.me/?phone=0965536866" target="blank">
                 <p class="btn btn-primary btn-zalo shadow" style="font-size: 18px; padding: 0px 14px; display:block;">
-                    <img style="width: 57px; height: 57px;" src="images/zalo-icon.png" alt="phone-icon">
+                    <img style="width: 57px; height: 57px;" src="/images/zalo-icon.png" alt="phone-icon">
                 </p>
             </a>
         </div>

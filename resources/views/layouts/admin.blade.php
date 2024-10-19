@@ -29,6 +29,14 @@
                 </li>
                 <li><a href="{{ route('admin.categories.index') }}">Quản lý danh sách</a></li>
                 <li><a href="{{ route('admin.comments.index') }}">Quản lý các bình luận</a></li>
+                <li><a href="{{ route('admin.setting_banner.index') }}">Quản lý Banner</a></li>
+                {{-- <li>
+                    <a href="#" class="toggle-submenu">Quản lý nội dung bài viết</a>
+                    <ul class="submenu">
+                        <li><a href="{{ route('admin.contents.index') }}">Quản lý  mục nội dung bài viết</a></li>
+                        <li><a href="{{ route('admin.content_detail.index') }}">Quản lý chi tiết nội dung bài viết</a></li>
+                    </ul>
+                </li> --}}
             </ul>
         </div>
         

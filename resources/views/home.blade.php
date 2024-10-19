@@ -7,7 +7,7 @@
 @section('title', 'Home Page')
 
 @section('content')
-    <img src="img_home/home_page_img_1.png" alt="home_page_img_1" class="home_page_img_1">
+    <img src="{{ Storage::url($setting_banner->image) }}" alt="home_page_img_1" class="home_page_img_1">
     <div class="container">
 
         <div class="grid-section mb-20">
@@ -25,7 +25,7 @@
                 <p class="p_introduce">Công ty Cổ phần Ứng dụng Điêu khắc Việt Nam được thành lập với vai trò tiên phong trong lĩnh vực tạo
                     hình, thiết kế, thi công cảnh quan, mô hình các dự án nghỉ dưỡng, khu vui chơi, khu du lịch... trong và
                     ngoài nước. Hiện nay, không chỉ đáp ứng thị trường trong nước chúng tôi đang từng bước chinh phục các
-                    thị trường khó tính trên thế giới. THĂNG LONG STEEL hiện đang là đơn vị dẫn đầu bằng trang thiết bị máy
+                    thị trường khó tính trên thế giới. Công ty cổ phần ứng dụng điêu khắc việt nam hiện đang là đơn vị dẫn đầu bằng trang thiết bị máy
                     móc hiện tại trong lĩnh vực kinh doanh tạo mẫu công nghệ. Với tiềm năng trang thiết bị và sự chuyên
                     nghiệp, không ngừng sáng tạo và đổi mới. Chúng tôi tin chắc rằng Mỹ Thuật Tân Việt sẽ là đối tác tin cậy
                     của các doanh nghiệp Việt Nam và nước ngoài.</p>

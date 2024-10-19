@@ -20,9 +20,9 @@
                 <div class="container-header">
                     <div class="content">
                         <img class="iconlyregularboldcall" alt="" src="../img_home/ic_call.png">
-                        <div class="tlsthanglongsteelvn">Hotline: 0972.888.888</div>
+                        <div class="tlsthanglongsteelvn">Hotline: 0965536866</div>
                         <img class="iconlyregularboldmessage" alt="" src="../img_home/ic_mail.png">
-                        <div class="tlsthanglongsteelvn">tls@thanglongsteel.vn</div>
+                        <div class="tlsthanglongsteelvn">duongvb68@gmail.com</div>
                     </div>
                     <div class="ting-vit">                 
                             <img class="lin-h-item" alt="" src="../img_home/9.png">
@@ -65,12 +65,12 @@
     <main>
         <div class="btn-fixed">
 
-            <a href="tel:0110827875" target="blank">
+            <a href="tel:0965536866" target="blank">
                 <p class="btn btn-danger btn-hotline shadow" style="font-size: 22px; padding: 0px 14px; display:block;">
                    <img style="width: 57px; height: 57px;" src="images/phone-icon-800x800.png" alt="zalo">
                 </p>
             </a>
-                <a href="https://chat.zalo.me/?phone=0110827875" target="blank">
+                <a href="https://chat.zalo.me/?phone=0965536866" target="blank">
                 <p class="btn btn-primary btn-zalo shadow" style="font-size: 18px; padding: 0px 14px; display:block;">
                     <img style="width: 57px; height: 57px;" src="images/zalo-icon.png" alt="phone-icon">
                 </p>
@@ -88,11 +88,11 @@
 
                 <div class="flex_item">
                     <img src="{{ asset('img_home/Call.png') }}" alt="call.png">
-                    <p class="p_footer">0110827875</p>
+                    <p class="p_footer">0965536866</p>
                 </div>
                 <div class="flex_item">
                     <img src="{{ asset('img_home/Message.png') }}" alt="call.png">
-                    <p class="p_footer">tls@thanglongsteel.vn</p>
+                    <p class="p_footer">duongvb68@gmail.com</p>
                 </div>
                 <div class="flex_item">
                     <img src="{{ asset('img_home/Location.png') }}" alt="call.png">

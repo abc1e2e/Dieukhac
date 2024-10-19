@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\ContentController;
 use App\Http\Controllers\Admin\ContentDetailController;
 use App\Http\Controllers\Admin\PostController;
 use App\Http\Controllers\Admin\PostImgController;
+use App\Http\Controllers\Admin\SettingBannerController;
 use App\Http\Controllers\Admin\SliderBarController;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\ContactController;
@@ -50,14 +51,19 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::put('categories/{category}', [CategoryController::class, 'update'])->name('admin.categories.update');
     Route::delete('categories/{category}', [CategoryController::class, 'destroy'])->name('admin.categories.destroy');
 
-
-
     Route::get('contents', [ContentController::class, 'index'])->name('admin.contents.index');
     Route::get('contents/create', [ContentController::class, 'create'])->name('admin.contents.create');
     Route::post('contents', [ContentController::class, 'store'])->name('admin.contents.store');
     Route::get('contents/{content}/edit', [ContentController::class, 'edit'])->name('admin.contents.edit');
     Route::put('contents/{content}', [ContentController::class, 'update'])->name('admin.contents.update');
     Route::delete('contents/{content}', [ContentController::class, 'destroy'])->name('admin.contents.destroy');
+
+    Route::get('setting-banner', [SettingBannerController::class, 'index'])->name('admin.setting_banner.index');
+    Route::get('setting-banner/create', [SettingBannerController::class, 'create'])->name('admin.setting_banner.create');
+    Route::post('setting-banner', [SettingBannerController::class, 'store'])->name('admin.setting_banner.store');
+    Route::get('setting-banner/{setting_banner}/edit', [SettingBannerController::class, 'edit'])->name('admin.setting_banner.edit');
+    Route::put('setting-banner/{setting_banner}', [SettingBannerController::class, 'update'])->name('admin.setting_banner.update');
+    Route::delete('setting-banner/{setting_banner}', [SettingBannerController::class, 'destroy'])->name('admin.setting_banner.destroy');
 
     Route::get('content_detail', [ContentDetailController::class, 'index'])->name('admin.content_detail.index');
     Route::get('content_detail/create', [ContentDetailController::class, 'create'])->name('admin.content_detail.create');

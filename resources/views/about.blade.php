@@ -67,7 +67,7 @@
                         <img style ="width: auto;" src="img_about/Icon_1.png" alt="Icon_1.png">
                     </div>
                     <p class="p_about_1">Tầm nhìn</p>
-                    </p class="p_introduce" >Công ty CP Thăng Long Steel đã và đang hợp tác với rất nhiều đối tác lớn cùng chiến lược lâu dài bền vững</p>
+                    </p class="p_introduce" >Công ty cổ phần ứng dụng điêu khắc việt nam đã và đang hợp tác với rất nhiều đối tác lớn cùng chiến lược lâu dài bền vững</p>
                     <div>
                         <img style ="width: auto;" src="img_about/Icon_2.png" alt="Icon_1.png">
                     </div>

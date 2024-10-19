@@ -15,7 +15,7 @@
         </div>
     </div>
     <div class="container_private">
-        <p class="p_introduce">Cảm ơn bạn đã truy cập vào trang website Thăng Long Steel .vn được vận hành bởi Công ty TNHH BioLG. Chúng tôi tôn trọng và cam kết sẽ bảo mật những thông tin mang tính riêng tư của bạn. Xin vui lòng đọc bản Chính sách bảo vệ thông tin cá nhân của người tiêu dùng dưới đây để hiểu hơn những cam kết mà chúng tôi thực hiện nhằm tôn trọng và bảo vệ quyền lợi của người truy cập. </p>
+        <p class="p_introduce">Cảm ơn bạn đã truy cập vào trang website Điêu Khắc Cung Dung .vn được vận hành bởi CÔNG TY CỔ PHẦN ỨNG DỤNG ĐIÊU KHẮC VIỆT NAM . Chúng tôi tôn trọng và cam kết sẽ bảo mật những thông tin mang tính riêng tư của bạn. Xin vui lòng đọc bản Chính sách bảo vệ thông tin cá nhân của người tiêu dùng dưới đây để hiểu hơn những cam kết mà chúng tôi thực hiện nhằm tôn trọng và bảo vệ quyền lợi của người truy cập. </p>
         <p class="p_introduce">Bảo vệ thông tin cá nhân của người tiêu dùng và gây dựng được niềm tin cho bạn là vấn đề rất quan trọng với chúng tôi. Vì vậy, chúng tôi sẽ dùng tên và các thông tin khác liên quan đến bạn tuân thủ theo nội dung của chính sách này. Chúng tôi chỉ thu thập những thông tin cần thiết liên quan đến giao dịch mua bán.  </p>
 
         <ol class="menu_ol">
@@ -28,9 +28,9 @@
             <li>
                 <h2 class="private_cs">Phạm vi sử dụng thông tin cá nhân</h2>
                 <p class="p_introduce">
-                    Website Thăng Long Steel .vn sử dụng thông tin của Người Tiêu Dùng cung cấp để: <br>
+                    Website Điêu Khắc Cung Dung .vn sử dụng thông tin của Người Tiêu Dùng cung cấp để: <br>
                     Cung cấp các dịch vụ đến Người Tiêu Dùng; </br>
-                    Gửi các thông báo về các hoạt động trao đổi thông tin giữa Người Tiêu Dùng và BioLG; </br>
+                    Gửi các thông báo về các hoạt động trao đổi thông tin giữa Người Tiêu Dùng và dieukhaccungdung; </br>
                     Ngăn ngừa các hoạt động phá hủy, chiếm đoạt tài khoản người dùng của Người Tiêu Dùng hoặc các hoạt động giả mạo</br> 
                     Người Tiêu Dùng; </br>
                     Liên lạc và giải quyết khiếu nại với Người Tiêu Dùng; </br>
@@ -48,7 +48,7 @@
             <li>
                 <h2 class="private_cs">Cam kết bảo mật thông tin cá nhân của người tiêu dùng</h2>
                 <p class="p_introduce">
-                    Thông tin cá nhân của Người Tiêu Dùng trên Website Thăng Long Steel .vn được Ban quản trị cam kết bảo mật tuyệt đối theo chính sách bảo mật thông tin cá nhân được đăng tải trên Website BioLG.vn. Việc thu thập và sử dụng thông tin của mỗi Người Tiêu Dùng chỉ được thực hiện khi có sự đồng ý của Người Tiêu Dùng trừ những trường hợp pháp luật có quy định khác và quy định này.  Không sử dụng, không chuyển giao, cung cấp hoặc tiết lộ cho bên thứ 3 về thông tin cá nhân của Người Tiêu Dùng khi không có sự đồng ý của Người Tiêu Dùng ngoại trừ các trường hợp được quy định tại quy định này hoặc quy định của pháp luật.  Trong trường hợp máy chủ lưu trữ thông tin bị hacker tấn công dẫn đến mất mát dữ liệu cá nhân của Người Tiêu Dùng, Ban quản trị có trách nhiệm thông báo và làm việc với cơ quan chức năng điều tra và xử lý kịp thời, đồng thời thông báo cho Người Tiêu Dùng được biết về vụ việc.  Bảo mật tuyệt đối mọi thông tin giao dịch trực tuyến của Người Tiêu Dùng bao gồm thông tin hóa đơn kế toán chứng từ số hóa tại khu vực dữ liệu trung tâm an toàn cấp 1 của BioLG. 
+                    Thông tin cá nhân của Người Tiêu Dùng trên Website Điêu Khắc Cung Dung .vn được Ban quản trị cam kết bảo mật tuyệt đối theo chính sách bảo mật thông tin cá nhân được đăng tải trên Website dieukhaccungdung.vn. Việc thu thập và sử dụng thông tin của mỗi Người Tiêu Dùng chỉ được thực hiện khi có sự đồng ý của Người Tiêu Dùng trừ những trường hợp pháp luật có quy định khác và quy định này.  Không sử dụng, không chuyển giao, cung cấp hoặc tiết lộ cho bên thứ 3 về thông tin cá nhân của Người Tiêu Dùng khi không có sự đồng ý của Người Tiêu Dùng ngoại trừ các trường hợp được quy định tại quy định này hoặc quy định của pháp luật.  Trong trường hợp máy chủ lưu trữ thông tin bị hacker tấn công dẫn đến mất mát dữ liệu cá nhân của Người Tiêu Dùng, Ban quản trị có trách nhiệm thông báo và làm việc với cơ quan chức năng điều tra và xử lý kịp thời, đồng thời thông báo cho Người Tiêu Dùng được biết về vụ việc.  Bảo mật tuyệt đối mọi thông tin giao dịch trực tuyến của Người Tiêu Dùng bao gồm thông tin hóa đơn kế toán chứng từ số hóa tại khu vực dữ liệu trung tâm an toàn cấp 1 của dieukhaccungdung. 
                 </p>
             </li>
         </ol>

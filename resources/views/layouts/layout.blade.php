@@ -13,23 +13,23 @@
 
 <body>
     <!-- Header -->
-    <header>
-        <div class="lin-h">
+    <header>    
+        <div class="header_fixed">
+            <div class="lin-h">
 
-            <div class="container-header">
-                <div class="content">
-                    <img class="iconlyregularboldcall" alt="" src="../img_home/ic_call.png">
-                    <div class="tlsthanglongsteelvn">Hotline: 0972.888.888</div>
-                    <img class="iconlyregularboldmessage" alt="" src="../img_home/ic_mail.png">
-                    <div class="tlsthanglongsteelvn">tls@thanglongsteel.vn</div>
+                <div class="container-header">
+                    <div class="content">
+                        <img class="iconlyregularboldcall" alt="" src="../img_home/ic_call.png">
+                        <div class="tlsthanglongsteelvn">Hotline: 0972.888.888</div>
+                        <img class="iconlyregularboldmessage" alt="" src="../img_home/ic_mail.png">
+                        <div class="tlsthanglongsteelvn">tls@thanglongsteel.vn</div>
+                    </div>
+                    <div class="ting-vit">                 
+                            <img class="lin-h-item" alt="" src="../img_home/9.png">
+                            <p>Tiếng Việt</p>
+                    </div>
+            
                 </div>
-                <div class="ting-vit">
-                   
-                        <img class="lin-h-item" alt="" src="../img_home/9.png">
-                        <p>Tiếng Việt</p>
-                   
-                </div>
-        
             </div>
         </div>
         <nav class="container">
@@ -63,6 +63,19 @@
 
     <!-- Main Content -->
     <main>
+        <div class="btn-fixed">
+
+            <a href="tel:0110827875" target="blank">
+                <p class="btn btn-danger btn-hotline shadow" style="font-size: 22px; padding: 0px 14px; display:block;">
+                   <img style="width: 57px; height: 57px;" src="images/phone-icon-800x800.png" alt="zalo">
+                </p>
+            </a>
+                <a href="https://chat.zalo.me/?phone=0110827875" target="blank">
+                <p class="btn btn-primary btn-zalo shadow" style="font-size: 18px; padding: 0px 14px; display:block;">
+                    <img style="width: 57px; height: 57px;" src="images/zalo-icon.png" alt="phone-icon">
+                </p>
+            </a>
+        </div>
         @yield('content')
     </main>
 
@@ -91,13 +104,13 @@
                     <img src="../iconsocialmedia/ic_twitter.png" alt="ic_twitter">
                 </div>
             </div>  
-            <div class="mt-5 ml-6"> 
+            {{-- <div class="mt-5 ml-6"> 
                 <p class="p_footer_2">Khám phá</p>
                 <p class="p_footer">Mô hình linh vật trang trí Tết</p>
                 <p class="p_footer">Mô hình trang trí Trung Thu</p>
                 <p class="p_footer">Mô hình trang trí Halloween</p>
                 <p class="p_footer">Mô hình linh vật trang trí Noel</p>
-            </div>  
+            </div>   --}}
             <div class="mt-5 ml-6"> 
                 <p class="p_footer_2">Liên hệ</p>
                 <a href="/private-policy" class="p_footer">Chính sách bảo mật</a>
@@ -109,7 +122,6 @@
             <div class="mt-5 sp_footer"> 
                 <p class="p_footer_2">Yêu cầu báo giá</p>
                 <button class="btn_fooder">Gửi yêu cầu báo giá</button>
-                <p class="p_footer">Chứng chỉ Năng lực Hoạt động Xây dựng Cấp III. Số: HCM-00046954, cấp ngày 19/10/2020 tại Sở Kế hoạch và Đầu tư thành phố Hồ Chí Minh</p>
                 <img src="{{ asset('img_home/home_page_img_certification.png') }} " alt="home_page_img_certification">
             </div>  
             

@@ -397,7 +397,9 @@
     bottom: 20%;
     z-index: 1500;
 }
-
+body{
+    margin: 0px;
+}
 @media (max-width: 768px) {
     .sp_footer {
         margin-left: 10px;

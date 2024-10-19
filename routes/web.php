@@ -3,6 +3,8 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\CommentController;
+use App\Http\Controllers\Admin\ContentController;
+use App\Http\Controllers\Admin\ContentDetailController;
 use App\Http\Controllers\Admin\PostController;
 use App\Http\Controllers\Admin\PostImgController;
 use App\Http\Controllers\Admin\SliderBarController;
@@ -47,6 +49,22 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('categories/{category}/edit', [CategoryController::class, 'edit'])->name('admin.categories.edit');
     Route::put('categories/{category}', [CategoryController::class, 'update'])->name('admin.categories.update');
     Route::delete('categories/{category}', [CategoryController::class, 'destroy'])->name('admin.categories.destroy');
+
+
+
+    Route::get('contents', [ContentController::class, 'index'])->name('admin.contents.index');
+    Route::get('contents/create', [ContentController::class, 'create'])->name('admin.contents.create');
+    Route::post('contents', [ContentController::class, 'store'])->name('admin.contents.store');
+    Route::get('contents/{content}/edit', [ContentController::class, 'edit'])->name('admin.contents.edit');
+    Route::put('contents/{content}', [ContentController::class, 'update'])->name('admin.contents.update');
+    Route::delete('contents/{content}', [ContentController::class, 'destroy'])->name('admin.contents.destroy');
+
+    Route::get('content_detail', [ContentDetailController::class, 'index'])->name('admin.content_detail.index');
+    Route::get('content_detail/create', [ContentDetailController::class, 'create'])->name('admin.content_detail.create');
+    Route::post('content_detail', [ContentDetailController::class, 'store'])->name('admin.content_detail.store');
+    Route::get('content_detail/{content_detail}/edit', [ContentDetailController::class, 'edit'])->name('admin.content_detail.edit');
+    Route::put('content_detail/{content_detail}', [ContentDetailController::class, 'update'])->name('admin.content_detail.update');
+    Route::delete('content_detail/{content_detail}', [ContentDetailController::class, 'destroy'])->name('admin.content_detail.destroy');
 
     Route::get('posts', [PostController::class, 'index'])->name('admin.posts.index');
     Route::get('posts/create', [PostController::class, 'create'])->name('admin.posts.create');

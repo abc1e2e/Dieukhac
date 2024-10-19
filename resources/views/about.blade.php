@@ -88,7 +88,7 @@
             <h2 class="p_congty ">Nghệ nhân</h2>
         </div>
         <div class="about_content">
-            <p class="p_introduce">Các nghệ nhân điêu khắc của Thăng Long Steel là những bậc thầy trong lĩnh vực tạo hình kim loại, với nhiều năm kinh </p>
+            <p class="p_introduce">Các nghệ nhân điêu khắc của công ty cổ phần ứng dụng điêu khắc việt nam là những bậc thầy trong lĩnh vực tạo hình kim loại, với nhiều năm kinh </p>
             <p class="p_introduce">nghiệm và niềm đam mê cháy bỏng với nghệ thuật. Mỗi tác phẩm được họ chế tác không chỉ thể hiện kỹ năng tinh xảo mà </p>
             <p class="p_introduce">còn chứa đựng sự sáng tạo và tâm huyết. Từ những chi tiết nhỏ nhất đến tổng thể tác phẩm, các nghệ nhân của chúng tôi </p>
             <p class="p_introduce">luôn đặt trọn tâm huyết vào từng đường nét, tạo nên những kiệt tác nghệ thuật độc đáo và đầy ý nghĩa. </p>

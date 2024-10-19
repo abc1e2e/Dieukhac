@@ -21,6 +21,7 @@
                     kinh nghiệm</p>
             </div>
             <div>
+                {{-- <pre class="p_introduce_content">{{ $content_detail1->content }}</pre> --}}
                 <p class="p_introduce">Công ty Cổ phần Ứng dụng Điêu khắc Việt Nam được thành lập với vai trò tiên phong trong lĩnh vực tạo
                     hình, thiết kế, thi công cảnh quan, mô hình các dự án nghỉ dưỡng, khu vui chơi, khu du lịch... trong và
                     ngoài nước. Hiện nay, không chỉ đáp ứng thị trường trong nước chúng tôi đang từng bước chinh phục các
@@ -65,6 +66,7 @@
                 <div>
                     <p class="p_chungtoi">Quy mô sản xuất</p>
                     <p class="p_congty">Quy mô sản xuất lên đến 3300 m2</p>
+                    {{-- <pre class="p_introduce_content">{{ $content_detail2->content }}</pre> --}}
                     <p class="p_introduce">Công ty Cổ phần Ứng dụng Điêu khắc Việt Nam toạ lạc tại 56/77/51 đường số 8 khu phố Phước Hậu,
                         Phường Long Phước, Tp Thủ Đức, Tp Hồ Chí Minh. Diện tích nhà xưởng lên đến 3300m2. Xưởng sản xuất
                         được chia thành 4 khu chính:</p>
@@ -87,6 +89,7 @@
                 <div>
                     <p class="p_chungtoi">NGUỒN LỰC NHÂN SỰ</p>
                     <p class="p_congty">Đội ngũ chuyên nghiệp & Tâm huyết</p>
+                    {{-- <pre class="p_introduce_content">{{ $content_detail3->content}}</pre> --}}
                     <p class="p_introduce">NGUỒN LỰC NHÂN SỰ</p>
                     <p class="p_introduce">Công ty Cổ phần Ứng dụng Điêu khắc Việt Nam luôn chú trọng đến nguồn lực nhân sự, nguồn nhân lực
                         được xem là “tài sản quý giá"" của công ty.</p>
@@ -116,6 +119,7 @@
                         hoàn chỉnh</h2>
                 </div>
                 <div>
+                    {{-- <pre class="p_introduce_content"> {{ $content_detail4->content }}</pre> --}}
                     <p class="p_introduce">Quá trình sản xuất được thực hiện bởi các nghệ nhân và úng dụng công
                         nghệ
                         hàng đầu tại Công ty Cổ phần Ứng dụng Điêu khắc Việt Nam</p>
@@ -211,15 +215,15 @@
                     @if ($key < 5)
                         @if ($key == 0)
                             <div class="grid-item main-image">
-                                <img src="{{ Storage::url($value->image_main) }}" alt="image_main_1">
+                                <a href="{{ route('news.detail',['id' => $value->id ]) }}"> <img src="{{ Storage::url($value->image_main) }}" alt="image_main_1"> </a>
                             </div>
                         @elseif ($key == 1 || $key == 2)
                             <div class="grid-item dual-image secondary-image">
-                                <img src="{{ Storage::url($value->image_main) }}" alt="image_main_{{ $key + 1 }}">
+                                <a href="{{ route('news.detail',['id' => $value->id ]) }}">  <img src="{{ Storage::url($value->image_main) }}" alt="image_main_{{ $key + 1 }}"> </a>
                             </div>
                         @else
                             <div class="grid-item dual-image secondary-image">
-                                <img src="{{ Storage::url($value->image_main) }}" alt="image_main_{{ $key + 1 }}">
+                                <a href="{{ route('news.detail',['id' => $value->id ]) }}"> <img src="{{ Storage::url($value->image_main) }}" alt="image_main_{{ $key + 1 }}"> </a>
                             </div>
                         @endif
                     @endif
@@ -230,15 +234,15 @@
                     @if ($key >= 5)
                         @if ($key == 5)
                             <div class="grid-item main-image">
-                                <img src="{{ Storage::url($value->image_main) }}" alt="image_main_1">
+                              <a href="{{ route('news.detail',['id' => $value->id ]) }}">  <img src="{{ Storage::url($value->image_main) }}" alt="image_main_1"> </a>
                             </div>
                         @elseif ($key == 6 || $key == 7)
                             <div class="grid-item dual-image secondary-image">
-                                <img src="{{ Storage::url($value->image_main) }}" alt="image_main_{{ $key + 1 }}">
+                                <a href="{{ route('news.detail',['id' => $value->id ]) }}">   <img src="{{ Storage::url($value->image_main) }}" alt="image_main_{{ $key + 1 }}"> </a>
                             </div>
                         @else
                             <div class="grid-item dual-image secondary-image">
-                                <img src="{{ Storage::url($value->image_main) }}" alt="image_main_{{ $key + 1 }}">
+                                <a href="{{ route('news.detail',['id' => $value->id ]) }}">  <img src="{{ Storage::url($value->image_main) }}" alt="image_main_{{ $key + 1 }}"> </a>
                             </div>
                         @endif
                     @endif

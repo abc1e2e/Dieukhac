@@ -27,7 +27,7 @@
                     ngoài nước. Hiện nay, không chỉ đáp ứng thị trường trong nước chúng tôi đang từng bước chinh phục các
                     thị trường khó tính trên thế giới. Công ty cổ phần ứng dụng điêu khắc việt nam hiện đang là đơn vị dẫn đầu bằng trang thiết bị máy
                     móc hiện tại trong lĩnh vực kinh doanh tạo mẫu công nghệ. Với tiềm năng trang thiết bị và sự chuyên
-                    nghiệp, không ngừng sáng tạo và đổi mới. Chúng tôi tin chắc rằng Mỹ Thuật Tân Việt sẽ là đối tác tin cậy
+                    nghiệp, không ngừng sáng tạo và đổi mới. Chúng tôi tin chắc rằng công ty cổ phần điêu khắc việt nam sẽ là đối tác tin cậy
                     của các doanh nghiệp Việt Nam và nước ngoài.</p>
                 <div class="grid-section">
                     <div class="flex_item">
@@ -67,8 +67,7 @@
                     <p class="p_chungtoi">Quy mô sản xuất</p>
                     <p class="p_congty">Quy mô sản xuất lên đến 3300 m2</p>
                     {{-- <pre class="p_introduce_content">{{ $content_detail2->content }}</pre> --}}
-                    <p class="p_introduce">Công ty Cổ phần Ứng dụng Điêu khắc Việt Nam toạ lạc tại 56/77/51 đường số 8 khu phố Phước Hậu,
-                        Phường Long Phước, Tp Thủ Đức, Tp Hồ Chí Minh. Diện tích nhà xưởng lên đến 3300m2. Xưởng sản xuất
+                    <p class="p_introduce">Công ty Cổ phần Ứng dụng Điêu khắc Việt Nam toạ lạc tại Tầng 11, Tòa nhà NetLand, ngõ 27 Lê Văn Lương, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội. Diện tích nhà xưởng lên đến 3300m2. Xưởng sản xuất
                         được chia thành 4 khu chính:</p>
                     <ul>
                         <li class="p_introduce">Khu máy móc và sản xuất xốp 1500m2</li>

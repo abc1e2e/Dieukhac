@@ -12,7 +12,6 @@
             <h2 class="product_h2">
                 Sản phẩm & Dịch vụ
             </h2>
-            <p>MÔ HÌNH TRANG TRÍ HALLOWEEN</p>
         </div>
     </div>
     <div class="container">

@@ -127,7 +127,7 @@
 
             <div class="image-container">
                 <div class="image-container-1">
-                    <img src="img_home/home_page_img_step.png" alt="home_page_img_step.png">
+                    <img src="img_home/procedure_1.jpg" alt="home_page_img_step.png">
                     <div class="text-overlay-header">
                         <p>01</p>
                     </div>
@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <div class="image-container-1">
-                    <img src="img_home/home_page_img_step.png" alt="home_page_img_step.png">
+                    <img src="img_home/procedure_2.jpg" alt="home_page_img_step.png">
                     <div class="text-overlay-header">
                         <p>02</p>
                     </div>
@@ -145,7 +145,7 @@
                     </div>
                 </div>
                 <div class="image-container-1">
-                    <img src="img_home/home_page_img_step.png" alt="home_page_img_step.png">
+                    <img src="img_home/procedure_3.jpg" alt="home_page_img_step.png">
                     <div class="text-overlay-header">
                         <p>03</p>
                     </div>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="image-container-1">
-                    <img src="img_home/home_page_img_step.png" alt="home_page_img_step.png">
+                    <img src="img_home/procedure_4.jpg" alt="home_page_img_step.png">
                     <div class="text-overlay-header">
                         <p>04</p>
                     </div>

@@ -55,7 +55,8 @@ class SettingBannerController extends Controller
             $image = $request->file('image');
             $setting_banner->image = $image->store('images', 'public');
         }
-        $setting_banner->save($request->all());
+        $setting_banner->fill($request->all());
+        $setting_banner->save();
         return redirect()->route('admin.setting_banner.index')->with('success', 'setting_banner updated successfully.');
     }
  

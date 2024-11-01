@@ -68,6 +68,7 @@ class PostController extends Controller
 
     public function update(Request $request, Post $post)
     {
+        // dd($request->all());
         $request->validate([
             'title' => 'required|string|max:255',
             'content' => 'required',
@@ -97,7 +98,8 @@ class PostController extends Controller
         //         $post->files()->create(['file_path' => $imagePath]);
         //     }
         // }
-        $post->save($request->all());
+        $post->fill($request->all());
+        $post->save();
         return redirect()->route('admin.posts.index')->with('success', 'Post updated successfully.');
     }
 

@@ -81,7 +81,8 @@ class PostImgController extends Controller
             $image = $request->file('image');
             $postImg->image = $image->store('images', 'public');
         }
-        $postImg->save($request->all());
+        $postImg->fill($request->all());
+        $postImg->save();
         return redirect()->route('admin.postImgs.index')->with('success', 'postImg updated successfully.');
     }
 

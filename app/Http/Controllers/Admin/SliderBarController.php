@@ -48,8 +48,8 @@ class SliderBarController extends Controller
             'content' => 'required',
             // Thêm các quy tắc khác nếu cần
         ]);
-
-        $sliderbar->update($request->all());
+        $sliderbar->fill($request->all());
+        $sliderbar->save();
         return redirect()->route('admin.sliderbar.index')->with('success', 'SliderBar updated successfully.');
     }
 

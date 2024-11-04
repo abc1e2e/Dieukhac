@@ -40,22 +40,30 @@
                 <ul class="horizontal-menu"> 
                     <li class="img_header_sp_li" style="padding-right: 20px">  <a href="/"> <img style="width: 86.61px; height: 60px" src="{{ asset('img_home/logo.png') }}" alt="logo"></a></li>
                     <li class="header_p_menu"><a class="link_header" href="/"> <p class="p_link_header"> Trang chủ </p></a></li>
-                    <li class="header_p_menu"><a class="link_header" href="/about"> <p class="p_link_header">Về chúng tôi</p></a></li>
-                    <li class="header_p_menu"><a class="link_header" href="/project"><p class="p_link_header">Dự án</p></a></li>
+                    <li class="header_p_menu"><a class="link_header" href="/ve-chung-toi"> <p class="p_link_header">Về chúng tôi</p></a></li>
+                    <li class="header_p_menu"><a class="link_header" href="/du-an"><p class="p_link_header">Dự án</p></a></li>
                     @php
                         $categorys = App\Models\Category::whereIn('id',[3,5,6])->get();
+                        $route = '';
                     @endphp
 
                     <li>
                         <p class="p_link_header" style="color:#38383D;">Sản Phẩm & Dịch Vụ</p>
                         <ul class="dropdown-menu">
-                            @foreach ($categorys as $key => $value)                              
-                            <li class="dropdown-item">  <a class="link_header" href="/product{{$key+1}}"> {{$value->name}} </a></li>
+                            @foreach ($categorys as $key => $value) 
+                            @if ($key == 1)
+                                $route = '/tranh-phu-dieu-va-tuong';
+                            @elseif($key == 2)
+                                $route = '/art-world-canh-quan';
+                            @else
+                                $route = '/thiet-bi-khu-vui-choi';
+                            @endif                             
+                            <li class="dropdown-item">  <a class="link_header" href="{{ $route }}"> {{$value->name}} </a></li>
                             @endforeach
                         </ul>
                     </li>
-                    <li class="header_p_menu"><a class="link_header" href="/news"><p class="p_link_header">Tin tức</p></a></li>
-                    <li class="header_p_menu"><a href="/contact" class="btn_contact"><p>Liên hệ</p></a></li>
+                    <li class="header_p_menu"><a class="link_header" href="/tin-tuc"><p class="p_link_header">Tin tức</p></a></li>
+                    <li class="header_p_menu"><a href="/lien-he" class="btn_contact"><p>Liên hệ</p></a></li>
                 </ul>
 
         </nav>
@@ -113,11 +121,11 @@
             </div>   --}}
             <div class="mt-5 ml-6"> 
                 <p class="p_footer_2">Liên hệ</p>
-                <a href="/private-policy" class="p_footer">Chính sách bảo mật</a>
+                <a href="/chinh-sach-bao-mat" class="p_footer">Chính sách bảo mật</a>
                 <p class="p_footer">Thông tin pháp lý</p>
-                <p><a href="/contact" class="p_footer"> Liên hệ </a></p>
-                <p><a href="/news" class="p_footer"> Bản tin </a></p>
-                <p><a href="/question" class="p_footer"> Câu hỏi thường gặp </a></p>
+                <p><a href="/lien-he" class="p_footer"> Liên hệ </a></p>
+                <p><a href="/tin-tuc" class="p_footer"> Bản tin </a></p>
+                <p><a href="/cau-hoi" class="p_footer"> Câu hỏi thường gặp </a></p>
             </div>  
             <div class="mt-5 sp_footer"> 
                 <p class="p_footer_2">Yêu cầu báo giá</p>

@@ -1460,6 +1460,12 @@ form input[type="submit"] {
     object-fit: cover; /* Giữ tỷ lệ ảnh mà không bị méo */
 }
 
+.image-container-1 img{
+    width: 100%;
+    height: 368px;
+    margin: 0 auto;
+}
+
 @media (max-width: 768px) {
     .home_page_img_1{
         margin-bottom: 15px;

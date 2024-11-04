@@ -56,11 +56,11 @@
                                 $route = '';
 
                                 if ($key == 1) {
-                                    $route = '/tranh-phu-dieu-va-tuong';
-                                } elseif ($key == 2) {
-                                    $route = '/art-world-canh-quan';
-                                } else {
                                     $route = '/thiet-bi-khu-vui-choi';
+                                } elseif ($key == 2) {
+                                    $route = '/tranh-phu-dieu-va-tuong';
+                                } else {
+                                    $route = '/art-world-canh-quan';
                                 }
                             @endphp
                             <li class="dropdown-item">  <a class="link_header" href="{{ $route }}"> {{$value->name}} </a></li>

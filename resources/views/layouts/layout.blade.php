@@ -50,17 +50,20 @@
                     <li>
                         <p class="p_link_header" style="color:#38383D;">Sản Phẩm & Dịch Vụ</p>
                         <ul class="dropdown-menu">
-                            @foreach ($categorys as $key => $value)                          
-                            <li class="dropdown-item">  <a class="link_header" href="@php $route 
-                                if($key == 1){
-                                     $route = '/tranh-phu-dieu-va-tuong';
-                                }else if($key == 2){
-                                      $route = '/art-world-canh-quan';
-                                }else{
+                            @foreach ($categorys as $key => $value)  
+                            
+                            @php
+                                $route = '';
+
+                                if ($key == 1) {
+                                    $route = '/tranh-phu-dieu-va-tuong';
+                                } elseif ($key == 2) {
+                                    $route = '/art-world-canh-quan';
+                                } else {
                                     $route = '/thiet-bi-khu-vui-choi';
                                 }
-                            
-                            @endphp"> {{$value->name}} </a></li>
+                            @endphp
+                            <li class="dropdown-item">  <a class="link_header" href="{{ $route }}"> {{$value->name}} </a></li>
                             @endforeach
                         </ul>
                     </li>

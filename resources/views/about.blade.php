@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{{ asset('assets/css/about.css') }}">
 @endsection
 
-@section('title', 'About Page')
+@section('title', 'Về chúng tôi')
 
 @section('content')
     <div class="about_bg_1">

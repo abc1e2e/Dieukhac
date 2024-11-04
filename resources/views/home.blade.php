@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/home.css') }}">
 @endsection
 
-@section('title', 'Home Page')
+@section('title', 'Trang chủ')
 
 @section('content')
     <img src="{{ Storage::url($setting_banner->image) }}" alt="home_page_img_1" class="home_page_img_1">

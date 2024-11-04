@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{{ asset('assets/css/contact.css') }}">
 @endsection
 
-@section('title', 'contact Page')
+@section('title', 'Liên hệ')
 
 @section('content')
     <div class="contact_bg_1">

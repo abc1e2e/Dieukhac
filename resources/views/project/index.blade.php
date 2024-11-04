@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/project.css') }}">
 @endsection
 
-@section('title', 'Project Page')
+@section('title', 'Dự án')
 
 @section('content')
     <div class="project_bg_1 mb-20">

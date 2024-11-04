@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{{ asset('assets/css/private.css') }}">
 @endsection
 
-@section('title', 'Private Page')
+@section('title', 'Chính sách bảo mật')
 
 @section('content')
     <div class="private_bg_1">

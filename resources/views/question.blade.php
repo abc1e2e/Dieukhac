@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{{ asset('assets/css/question.css') }}">
 @endsection
 
-@section('title', 'Question Page')
+@section('title', 'Câu hỏi')
 
 @section('content')
     <div class="question_bg_1">

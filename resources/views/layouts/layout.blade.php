@@ -20,7 +20,7 @@
                 <div class="container-header">
                     <div class="content">
                         <img class="iconlyregularboldcall" alt="" src="../img_home/ic_call.png">
-                        <div class="tlsthanglongsteelvn">Hotline: 0965536866</div>
+                        <div class="tlsthanglongsteelvn">Số điện thoại: 0965536866</div>
                         <img class="iconlyregularboldmessage" alt="" src="../img_home/ic_mail.png">
                         <div class="tlsthanglongsteelvn">duongvb68@gmail.com</div>
                     </div>

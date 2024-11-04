@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/new.css') }}">
 @endsection
 
-@section('title', 'new Page')
+@section('title', 'Tin Tức')
 
 @section('content')
     <div class="new_bg_1 mb-20">

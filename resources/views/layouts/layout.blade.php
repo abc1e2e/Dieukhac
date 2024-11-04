@@ -43,7 +43,7 @@
                     <li class="header_p_menu"><a class="link_header" href="/ve-chung-toi"> <p class="p_link_header">Về chúng tôi</p></a></li>
                     <li class="header_p_menu"><a class="link_header" href="/du-an"><p class="p_link_header">Dự án</p></a></li>
                     @php
-                        $categorys = App\Models\Category::whereIn('id',[3,5,6])->orderBy('id','DESC')->get();
+                        $categorys = App\Models\Category::whereIn('id',[3,5,6])->orderBy('id','ASC')->get();
                         $route = '';
                     @endphp
 

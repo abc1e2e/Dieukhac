@@ -43,7 +43,7 @@
                     <li class="header_p_menu"><a class="link_header" href="/ve-chung-toi"> <p class="p_link_header">Về chúng tôi</p></a></li>
                     <li class="header_p_menu"><a class="link_header" href="/du-an"><p class="p_link_header">Dự án</p></a></li>
                     @php
-                        $categorys = App\Models\Category::whereIn('id',[3,5,6])->get();
+                        $categorys = App\Models\Category::whereIn('id',[3,5,6])->orderBy('id','DESC')->get();
                         $route = '';
                     @endphp
 
@@ -55,12 +55,12 @@
                             @php
                                 $route = '';
 
-                                if ($key == 1) {
-                                    $route = '/thiet-bi-khu-vui-choi';
-                                } elseif ($key == 2) {
+                                if ($key == 0) {
                                     $route = '/tranh-phu-dieu-va-tuong';
-                                } else {
+                                } elseif ($key == 1) {
                                     $route = '/art-world-canh-quan';
+                                } else {
+                                    $route = '/thiet-bi-khu-vui-choi';
                                 }
                             @endphp
                             <li class="dropdown-item">  <a class="link_header" href="{{ $route }}"> {{$value->name}} </a></li>
